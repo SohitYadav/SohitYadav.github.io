@@ -1,0 +1,142 @@
+.share {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    transition: .4s ease-in-out;
+    margin-top: 60px;
+    margin: auto;
+    /* border: solid; */
+    width: 200px;
+  }
+  
+  .btn1 {
+    position: relative;
+    width: 3em;
+    height: 3em;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    transition: .4s all;
+  }
+  
+  .btn1 .instagram {
+    margin-top: 0.1em;
+    fill: #cc39a4;
+  }
+  
+  
+  
+  
+  
+  .btn1:hover {
+    background-color: #cc39a4;
+  }
+  
+  .btn1:hover .instagram {
+    fill: white;
+  }
+  
+  .btn2 {
+    position: relative;
+    width: 3em;
+    height: 3em;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    transition: .4s all;
+  }
+  
+  .btn2 .twitter {
+    margin-top: .25em;
+    margin-left: .1em;
+    fill: #03A9F4;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .btn2:hover .tooltiptext2 {
+    transform: translateY(-1em);
+    visibility: visible;
+  }
+  
+  .btn2:hover {
+    background-color: #03A9F4;
+  }
+  
+  .btn2:hover .twitter {
+    fill: white;
+  }
+  
+  .btn3 {
+    position: relative;
+    width: 3em;
+    height: 3em;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    transition: .4s all;
+    /* border: solid; */
+  }
+  
+  
+  
+  .btn3 .tooltiptext3 .card {
+    width: 4em;
+    height: 4em;
+    background-color: white;
+  }
+  
+  .btn3 .tooltiptext3 .account {
+    margin-top: 1em;
+  }
+  
+  
+  
+  .btn3:hover .tooltiptext3 {
+    transform: translateY(-1em);
+    visibility: visible;
+  }
+  
+  .btn3:hover {
+    background-color: black;
+  }
+  
+  .btn3:hover .git {
+    fill: white;
+  }
+
+
+  .cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 8px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+  }

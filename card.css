@@ -1,0 +1,94 @@
+
+
+
+.projects-section {
+    margin: 50px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .projects-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .projects-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .project-card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .project-tech-stack {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-github-link,
+  .project-deployed-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-github-link:hover,
+  .project-deployed-link:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+ 
+  
+  #resume-button-1 {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #resume-button-1:hover {
+    background-color: red;
+  }
+  
