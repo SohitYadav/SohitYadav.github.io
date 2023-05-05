@@ -99,7 +99,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     cursor: pointer;
   }
   
@@ -139,7 +139,7 @@
   }
   
   .skills-card:hover .skills-card-name {
-    color: red
+    color: rgb(218, 204, 204)
   }
   
   .skills-card-description {
