@@ -1,3 +1,20 @@
+/* .calendar{
+	width:50%
+} */
+/* github stats */
+
+section.services{
+    background: var(--color-light);
+	display: block;margin: auto;
+}
+section.services .container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+	display: block;margin: auto;
+    gap: 2rem;
+   
+}
+
 
 #footer {
 	background: #f7f8f9;
@@ -55,3 +72,73 @@
   #footer .credits {
 	font-size: 13px;
   }
+
+  .button {
+	position: relative;
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	border: 1px solid #f00e0e;
+	background-color: #ff0000;
+	overflow: hidden;
+  }
+  
+  .button, .button__icon, .button__text {
+	transition: all 0.3s;
+  }
+  
+  .button .button__text {
+	transform: translateX(22px);
+	color: #fff;
+	font-weight: 600;
+  }
+  
+  .button .button__icon {
+	position: absolute;
+	transform: translateX(109px);
+	height: 100%;
+	width: 39px;
+	background-color: #f00e0e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .button .svg {
+	width: 20px;
+	fill: #fff;
+  }
+  
+  .button:hover {
+	background: #f00e0e;
+  }
+  
+  .button:hover .button__text {
+	color: transparent;
+  }
+  
+  .button:hover .button__icon {
+	width: 148px;
+	transform: translateX(0);
+  }
+  
+  .button:active .button__icon {
+	background-color: #f00e0e;
+  }
+  
+  .button:active {
+	border: 1px solid #f00e0e;
+  }
+
+  hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+	margin:auto;
+	width:80%;
+    box-shadow: 0 0 7px 2px #f80202;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
