@@ -82,7 +82,7 @@
  
   
   #resume-button-1 {
-    background-color: red;
+    /* background-color: red; */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -92,7 +92,7 @@
     transition: background-color 0.3s ease-in-out;
   }
   
-  #resume-button-1:hover {
+  /* #resume-button-1:hover {
     background-color: red;
-  }
+  } */
   
