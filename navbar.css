@@ -1,16 +1,16 @@
 
-  .header{
+  /* .header{
     border-bottom: 1px solid #E2E8F0;
-}
+} */
 
 .navbar {
     display: flex;
     /* justify-content: space-between; */
     /* border: 1px solid; */
     align-items: center;
-    height: 30px;
+    height: 70px;
     /* padding: 1rem 1.5rem; */
-    position: absolute;
+    /* position: absolute; */
 
 }
 .hamburger {
