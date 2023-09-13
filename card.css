@@ -5,7 +5,13 @@
     margin: 50px 0;
     
   }
-  
+  .projectimage{
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  .projectimage:hover{
+    transform: scale(1.7); /* Adjust the scale factor for the desired zoom level */
+}
   .section-title {
     text-align: center;
     font-size: 2rem;
@@ -14,7 +20,7 @@
   
   .projects-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 0.5fr);
     grid-gap: 30px;
     
   }
@@ -34,7 +40,8 @@
   .project-card {
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 40px;
+    width:90%;
     text-align: center;
     background-color: rgb(218, 204, 204);
     color: black;
