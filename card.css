@@ -10,7 +10,7 @@
     cursor: pointer;
   }
   .projectimage:hover{
-    transform: scale(1.7); /* Adjust the scale factor for the desired zoom level */
+    transform: scale(1.3); /* Adjust the scale factor for the desired zoom level */
 }
   .section-title {
     text-align: center;
